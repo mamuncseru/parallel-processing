@@ -1,5 +1,12 @@
 // 3. Write a program in MPI to simulate simple calculator.Perform each operation using different process in parallel
 
+
+// To Compile
+// mpicc 3.cpp -o c -lstdc++
+// To run
+// mpirun -np 5 ./c 10 5
+
+
 #include<bits/stdc++.h>
 #include<mpi.h>
 
